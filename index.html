@@ -9,7 +9,7 @@
 <body>
   <h1>Registro de Reinstrucciones</h1>
   <div id="datos">
-    Cargando datos...
+    <p>Cargando datos...</p>
   </div>
 
   <script>
@@ -28,7 +28,7 @@
         renderData(data.data || []);
       } catch (error) {
         console.error("Error al obtener los datos:", error.message);
-        document.getElementById("datos").innerText = `Error: ${error.message}`;
+        document.getElementById("datos").innerHTML = `<p style="color: red;">Error: ${error.message}</p>`;
       }
     }
 
@@ -86,3 +86,4 @@
   </script>
 </body>
 </html>
+
