@@ -19,7 +19,7 @@ table {
 
 th, td {
   text-align: left;
-  padding: 15px; /* Más espacio */
+  padding: 15px; /* Espacio en las celdas */
   border: 1px solid #ddd;
 }
 
@@ -33,14 +33,20 @@ tr:hover {
   cursor: pointer;
 }
 
-th:nth-child(2), td:nth-child(2) { /* Ajuste para la columna del RUT */
-  width: 150px;
+/* Ajuste para columnas específicas */
+th:nth-child(2), td:nth-child(2) { /* RUT */
+  width: 200px; /* Espacio un poco más grande */
 }
 
-td:nth-child(3), th:nth-child(3) { /* Ajuste para la fecha */
-  text-align: center; /* Centrar la fecha */
+th:nth-child(4), td:nth-child(4) { /* Cantidad de Excesos */
+  width: 80px; /* Espacio más pequeño */
+}
+
+td:nth-child(3), th:nth-child(3) { /* Centrar la fecha */
+  text-align: center;
 }
 
 td, th {
   word-wrap: break-word;
 }
+
