@@ -39,7 +39,7 @@ th:nth-child(2), td:nth-child(2) { /* RUT */
 }
 
 th:nth-child(4), td:nth-child(4) { /* Cantidad de Excesos */
-  width: 10px; /* Espacio más pequeño */
+  width: 80px; /* Espacio más pequeño */
 }
 
 td:nth-child(3), th:nth-child(3) { /* Centrar la fecha */
@@ -49,4 +49,5 @@ td:nth-child(3), th:nth-child(3) { /* Centrar la fecha */
 td, th {
   word-wrap: break-word;
 }
+
 
